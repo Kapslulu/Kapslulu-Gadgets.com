@@ -1,0 +1,111 @@
+*
+/* NAME:LITWAYI KAPALU
+   SIN : 21164987 */
+
+.body{
+    background-color: burlywood;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.cards{
+    width: 300px;
+    margin: 10px;
+    background-color: #008080;
+    border-radius: 15px;
+    transition: 0.2s;
+    overflow: initial;
+}
+
+
+
+.card-img img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.card-body h1{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card-body h2{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.card-body p{
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 5px;
+    
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer button{
+    width: 150px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.card-footer button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.cards:hover{
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+    transform: scale(1.15);
+}
+
+
+
+
+.menu-bar{
+    background-color: #008080;
+    text-align: center;
+
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.active,.menu-bar ul li :hover{
+    background: 2bab0d;
+    border-radius: 3px;
+}
+
